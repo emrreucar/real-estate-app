@@ -15,15 +15,15 @@
       gap: 50px;
       height: 100%;
 
-      @include lg{
+      @include lg {
         padding-right: 50px;
       }
 
-      @include md{
+      @include md {
         padding: 0;
       }
 
-      @include sm{
+      @include sm {
         justify-content: flex-start;
       }
 
@@ -65,6 +65,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    z-index: -1;
 
     @include md {
       display: none;

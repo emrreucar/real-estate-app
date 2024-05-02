@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -9,7 +9,13 @@ a {
   color: inherit;
 }
 
-body{
+body {
   font-family: "Lato", sans-serif;
   overflow: hidden;
+}
+
+.cloudinary-button {
+  border: none;
+  background-color: #008080 !important;
+  padding: 5px 40px !important;
 }
