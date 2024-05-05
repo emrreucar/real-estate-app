@@ -1,4 +1,3 @@
-// import { listData } from "../../lib/dummydata";
 import "./listPage.scss";
 import Filter from "../../components/filter/Filter";
 import Card from "../../components/card/Card";
@@ -7,8 +6,6 @@ import { Await, useLoaderData } from "react-router-dom";
 import { Suspense } from "react";
 
 function ListPage() {
-  // const data = listData;
-
   const data = useLoaderData();
 
   // console.log("posts", posts);

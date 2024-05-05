@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import "./card.scss";
+import { useState } from "react";
 
 function Card({ item }) {
   return (
